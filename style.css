@@ -1,0 +1,209 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.cont {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 250px;
+    background-image: url("https://images.unsplash.com/photo-1684194107750-30d929c51fd7?q=80&w=1630&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-items: center;
+}
+
+
+#contchild {
+    height: 500px;
+    width: 500px;
+    border: 3px solid yellowgreen;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding: 16px;
+    background-color: rgb(36, 205, 50);
+    border-radius: 10px;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Wallpaper-for-Kids-Download-Free.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.child {
+    width: 30%;
+    height: 30%;
+    border: 3px solid rgb(255, 234, 47);
+    border-radius: 100%;
+    background-color: rgb(255, 254, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    box-shadow: inset 0px 10px 0px 5px rgb(68, 67, 68);
+    overflow: hidden;
+    gap: 20px;
+}
+
+.child:hover {
+
+    cursor: pointer;
+
+
+}
+
+#btn {
+    height: 100px;
+    width: 250px;
+    font-size: larger;
+    background-color: rgb(145, 255, 0);
+    border-radius: 30%;
+    border: 2px solid rgb(218, 51, 207);
+    color: rgb(254, 70, 3);
+    font-family: "Matemasie", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+
+
+
+.btncont {
+    height: 64vh;
+    width: 277.6px;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    border-radius: 79px;
+    gap: 7px;
+    border: 3px solid rgb(157, 255, 9);
+    background-color: rgb(255, 255, 255);
+    background-image: url("https://i.pinimg.com/236x/dc/e2/c6/dce2c669d401e104f9d9ee1a10a164dd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+#score {
+    font-family: "Matemasie", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    color: red;
+
+}
+
+.score1 {
+    color: rgb(155, 5, 132);
+    font-family: "Matemasie", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#btn:hover {
+    height: 110px;
+    width: 250px;
+    border: 3px solid rgb(251, 255, 9);
+}
+
+.btnrestore {
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    border-radius: 15px;
+    color: rgb(4, 67, 255);
+    font-family: "Matemasie", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    border: 2px solid;
+    background-color: aqua;
+
+
+}
+
+.btnrestore:hover {
+    height: 50px;
+    width: 110px;
+    border: 3px solid yellow;
+}
+
+.btnrecon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 55px;
+}
+
+@media (max-width: 500px) {
+    #contchild {
+        width: 300px;
+        height: 300px;
+
+    }
+
+}
+
+#back {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.8;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.backSpan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 40px;
+    color: red;
+    font-size: 5rem;
+}
+
+#spbtn {
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 248, 11);
+}
+
+.time {
+    margin: 0;
+    padding: 0;
+    color: rgb(30, 7, 114);
+    font-family: "Matemasie", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#backspan {
+    font-size: 35px;
+    color: rgb(24, 236, 225);
+}
