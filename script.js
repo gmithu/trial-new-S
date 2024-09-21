@@ -16,7 +16,7 @@ let time = document.getElementById("time");
 let set;
 
 let num = 0;
-const timeout = 5;
+const timeout = 25;
 
 
 let im = document.createElement("img");
